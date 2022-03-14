@@ -13,7 +13,7 @@ def blink (pin):
   time.sleep (0.5)
 
 #main program blink GPIO18 (pinl12) 10 times
-for i in range (0,10):
+for i in range (0,1):
     blink(18)
 
 #cleanup
